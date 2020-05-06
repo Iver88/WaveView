@@ -98,7 +98,7 @@ class Wave extends View {
     public void initializePainters() {
         mAboveWavePaint.setColor(mAboveWaveColor);
         mAboveWavePaint.setAlpha(DEFAULT_ABOVE_WAVE_ALPHA);
-        mAboveWavePaint.setStyle(Paint.Style.FILL);
+        mAboveWavePaint.setStyle(Paint.Style.STROKE);
         mAboveWavePaint.setAntiAlias(true);
 
         mBlowWavePaint.setColor(mBlowWaveColor);
