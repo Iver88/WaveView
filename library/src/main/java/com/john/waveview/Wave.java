@@ -22,7 +22,7 @@ class Wave extends View {
     private final float WAVE_HZ_NORMAL = 0.09f;
     private final float WAVE_HZ_SLOW = 0.05f;
 
-    public final int DEFAULT_ABOVE_WAVE_ALPHA = 50;
+    public final int DEFAULT_ABOVE_WAVE_ALPHA = 0;
     public final int DEFAULT_BLOW_WAVE_ALPHA = 30;
 
     private final float X_SPACE = 20;
@@ -198,7 +198,7 @@ class Wave extends View {
     @Override
     protected void onLayout(boolean changed, int left, int top, int right, int bottom) {
         super.onLayout(changed, left, top, right, bottom);
-        if (mWaveLength==0){
+        if (mWaveLength == 0) {
             startWave();
         }
     }
