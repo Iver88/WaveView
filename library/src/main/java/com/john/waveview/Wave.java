@@ -12,7 +12,7 @@ import android.view.ViewGroup;
 class Wave extends View {
     private final int WAVE_HEIGHT_LARGE = 16;
     private final int WAVE_HEIGHT_MIDDLE = 8;
-    private final int WAVE_HEIGHT_LITTLE = 5;
+    private final int WAVE_HEIGHT_LITTLE = 50;
 
     private final float WAVE_LENGTH_MULTIPLE_LARGE = 1.5f;
     private final float WAVE_LENGTH_MULTIPLE_MIDDLE = 1f;
@@ -98,7 +98,7 @@ class Wave extends View {
     public void initializePainters() {
         mAboveWavePaint.setColor(mAboveWaveColor);
         mAboveWavePaint.setAlpha(DEFAULT_ABOVE_WAVE_ALPHA);
-        mAboveWavePaint.setStyle(Paint.Style.STROKE);
+        mAboveWavePaint.setStyle(Paint.Style.FILL);
         mAboveWavePaint.setAntiAlias(true);
 
         mBlowWavePaint.setColor(mBlowWaveColor);
