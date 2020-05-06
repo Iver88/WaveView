@@ -22,7 +22,7 @@ class Wave extends View {
     private final float WAVE_HZ_NORMAL = 0.09f;
     private final float WAVE_HZ_SLOW = 0.05f;
 
-    public final int DEFAULT_ABOVE_WAVE_ALPHA = 0;
+    public final int DEFAULT_ABOVE_WAVE_ALPHA = 100;
     public final int DEFAULT_BLOW_WAVE_ALPHA = 30;
 
     private final float X_SPACE = 20;
